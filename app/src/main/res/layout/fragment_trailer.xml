@@ -9,12 +9,18 @@
     <!-- TODO: Update blank fragment layout -->
 
 
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
 <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
     android:id="@+id/trailerFilm"
     android:layout_width="350dp"
     android:layout_height="350dp"
     android:layout_gravity="center"
+    android:foregroundGravity="center"
 >
 
 
@@ -35,5 +41,6 @@
 
 </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
 
+</LinearLayout>
 
 </FrameLayout>
