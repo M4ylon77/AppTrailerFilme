@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:layout_gravity="center"
+    tools:context=".View.BuscarActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="start"
+            android:orientation="horizontal"
+            android:layout_height="100dp"
+
+            >
+
+                <EditText
+                    android:id="@+id/edit_query"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:hint="Pesquise seu filme"
+                    android:paddingTop="20dp"
+                    android:textColor="#FF901A"
+                    android:textColorHint="#000000"></EditText>
+
+<!--                <Button-->
+<!--                    android:id="@+id/buscar_filme"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background=""    -->
+<!--                    -->
+<!--                    ></Button>-->
+
+                <androidx.constraintlayout.utils.widget.ImageFilterButton
+                    android:id="@+id/buscar_filme"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:background="@drawable/baseline_search_24"
+                    ></androidx.constraintlayout.utils.widget.ImageFilterButton>
+
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+
+        <FrameLayout
+            android:id="@+id/fragmentTrailer"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            >
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/minhaListFilme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                >
+
+        </ListView>
+
+
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </LinearLayout>
+
+</LinearLayout>

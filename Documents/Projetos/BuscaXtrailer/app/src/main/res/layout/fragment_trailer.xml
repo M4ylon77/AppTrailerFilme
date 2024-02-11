@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.Fragment.TrailerFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+    android:id="@+id/trailerFilm"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+>
+
+
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/closed"
+    android:layout_width="55dp"
+    android:layout_height="55dp"
+    app:menu="@menu/back"
+    android:background="@drawable/buton_close"
+    android:layout_gravity="end"
+    android:gravity="end"
+    android:paddingEnd="18dp"
+    >
+
+</androidx.appcompat.widget.Toolbar>
+
+
+
+</com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+
+</FrameLayout>
